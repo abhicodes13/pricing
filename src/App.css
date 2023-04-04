@@ -1,0 +1,66 @@
+
+
+.App{
+    margin: 1rem;
+font-family: 'Poppins';
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:forestgreen;
+}
+.flex-text{
+    margin-top: 10px;
+    color: darkgreen;
+    font-size: 19px;
+    list-style: none;
+    gap: 30px;
+}
+
+li:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.pricing{
+  display: grid;
+grid-template-columns: 33% 33% 33%;
+
+
+}
+.price-card{
+    text-align: center;
+    margin: 5px;
+    padding: 25px;
+    padding-bottom: 2rem;
+    color: white;
+    background-color:black;
+    opacity: 80%;
+    border:2px none blue;
+}
+.pricing h1{
+    color:green;
+}
+
+.btn{
+   font-family: 'Poppins';
+    color: white;
+    font-size:20px ;
+    font-weight: 900;
+    background-color: forestgreen;
+    border: none;
+    margin-top: 2rem;
+    padding: 30px;
+    width: 100%;
+}
+
+.btn:hover{
+    opacity: 80%;
+}
+
+.htl{
+    font-weight: 900;
+    font-size: 45px;
+}
