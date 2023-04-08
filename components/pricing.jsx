@@ -28,3 +28,4 @@ export default function Pricing(){
         
     )
 }
+//will be making a single re-usable component for price cards
